@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Models\User;
+use Illuminate\Support\Facades\Auth;
 
 class AuthController extends Controller
 {
@@ -20,14 +21,21 @@ class AuthController extends Controller
             'password' => bcrypt($request->password)
         ]);
 
-        return redirect('/register');
+        return redirect('/');
     }
     public function login()
     {
         return view('login');
     }
-    public function ceklogin()
+    public function ceklogin(Request $request)
     {
-        return view('login');
+        if (!Auth::attempt([
+            'email' => $request->email,
+            'password' => $request->password
+        ])) {
+            return redirect('/');
+        } else {
+            return "berhasil login";
+        }
     }
 }

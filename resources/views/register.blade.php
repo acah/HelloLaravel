@@ -20,7 +20,7 @@
                         <strong class="text-center d-block">Form <span class="text-primary">Regsiter</span></strong>
                     </div>
                     <div class="card-body">
-                        <form action="/ceklogin" method="post">
+                        <form action="/simpanuser" method="post">
                             @csrf
                             <div class="form-group">
                                 <label for="">Nama pengguna*</label>
@@ -37,7 +37,7 @@
                             <div class="form-group">
                                 <input name="" id="" class="btn btn-primary" type="submit" value="Sign Up">
                             </div>
-                            <small>Sudah punya akun?<a href="">Login sekarang</a></small>
+                            <small>Sudah punya akun?<a href="/"> Login sekarang</a></small>
                         </form>
                     </div>
                 </div>
