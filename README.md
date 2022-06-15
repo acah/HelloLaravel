@@ -2,6 +2,35 @@
 
 ## NIM : 5190411322
 
+# Tampilan
+
+## Registrasi
+![image](https://user-images.githubusercontent.com/96467785/173715785-6bff9b8f-e5a6-4d13-b1f4-75fde68fbd77.png)
+
+## login
+![image](https://user-images.githubusercontent.com/96467785/173715310-dfe5403b-c3a2-4f1f-8997-cf7a23d4c6ae.png)
+
+## Berhasil Login
+
+![image](https://user-images.githubusercontent.com/96467785/173715390-4cebf0f1-a63d-47bb-9cc2-c722ece10db0.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ##
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
