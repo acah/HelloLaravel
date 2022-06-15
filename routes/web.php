@@ -24,3 +24,5 @@ Route::post('/simpanuser', 'App\Http\Controllers\AuthController@simpanuser');
 Route::get('/', 'App\Http\Controllers\AuthController@login');
 
 Route::post('/ceklogin', 'App\Http\Controllers\AuthController@ceklogin');
+
+Route::get('/berhasilLogin', 'App\Http\Controllers\AuthController@berhasilLogin');

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Register</title>
+    <title>BERHASIL LOGIN</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,28 +17,13 @@
             <div class="col-lg-4">
                 <div class="card mt-5">
                     <div class="card-header">
-                        <strong class="text-center d-block">Form <span class="text-primary">Regsiter</span></strong>
+                        <strong class="text-center d-block"> <span class="text-primary">SELAMAT ANDA BERHASIL LOGIN</span></strong>
                     </div>
-                    <div class="card-body">
-                        <form action="/simpanuser" method="post">
-                            @csrf
-                            <div class="form-group">
-                                <label for="">Nama pengguna*</label>
-                                <input type="text" class="form-control" name="nama" id="" autofocus required autocomplete="off">
-                            </div>
-                            <div class="form-group">
-                                <label for="">Email*</label>
-                                <input type="Email" class="form-control" name="email" id="" required autocomplete="off">
-                            </div>
-                            <div class="form-group">
-                                <label for="">Password*</label>
-                                <input type="password" class="form-control" name="password" id="" required autocomplete="off">
-                            </div>
-                            <div class="form-group">
-                                <input name="" id="" class="btn btn-primary" type="submit" value="Sign Up">
-                            </div>
-                            <small>Sudah punya akun?<a href="/"> Login sekarang</a></small>
-                        </form>
+                    <div class="card-body ">
+                        <div class="row justify-content-center">
+                            <a href="/" class="btn btn-primary btn-lg mx-3" role="button" aria-pressed="true">Login</a>
+                            <a href="/register" class="btn btn-primary btn-lg mx-3" role="button" aria-pressed="true">Register</a>
+                        </div>
                     </div>
                     <div class="card-footer text-center">
                         <h5>AGUNG CAHYO SUMIRAT</h5>

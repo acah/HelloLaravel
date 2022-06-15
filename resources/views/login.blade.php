@@ -36,6 +36,10 @@
                             <small>Belum memiliki akun?<a href="/register"> Daftar sekarang</a></small>
                         </form>
                     </div>
+                    <div class="card-footer text-center">
+                        <h5>AGUNG CAHYO SUMIRAT</h5>
+                        <p>5190411322</p>
+                    </div>
                 </div>
             </div>
         </div>

@@ -35,7 +35,8 @@ class AuthController extends Controller
         ])) {
             return redirect('/');
         } else {
-            return "berhasil login";
+            // return "berhasil login";
+            return view('berhasilLogin');
         }
     }
 }
